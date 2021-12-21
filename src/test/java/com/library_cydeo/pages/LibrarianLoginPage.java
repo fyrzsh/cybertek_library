@@ -100,10 +100,12 @@ public class LibrarianLoginPage extends MainPage {
 
 //        WebDriverWait wait = new WebDriverWait(driver, 10);
 //        wait.until(ExpectedConditions.visibilityOf(descriptionField));
-        descriptionField.sendKeys(faker.lorem().paragraph(7));
+        descriptionField.sendKeys(faker.lorem().paragraph(1));
         BrowserUtils.sleep(1);
         driver.findElement(By.xpath("//button[.='Save changes']")).click();
         BrowserUtils.sleep(2);
+
+        //check to see
 
 
 
