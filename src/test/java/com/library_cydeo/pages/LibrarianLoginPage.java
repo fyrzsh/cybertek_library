@@ -96,15 +96,14 @@ public class LibrarianLoginPage extends MainPage {
         WebElement bookCategory = driver.findElement(By.xpath("//select[@id='book_group_id']"));
         Select select = new Select(bookCategory);
         select.selectByIndex(faker.number().numberBetween(1, 20));
-        driver.findElement(By.xpath("//button[.='Save changes']")).click();
         BrowserUtils.sleep(4);
 
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(descriptionField));
         descriptionField.sendKeys(faker.lorem().paragraph(7));
-        //driver.findElement(By.xpath("//div[@class='form-group']/textarea")).sendKeys("sdljk;sldkfa");
         BrowserUtils.sleep(4);
         driver.findElement(By.xpath("//button[.='Save changes']")).click();
+        BrowserUtils.sleep(4);
 
 
 
