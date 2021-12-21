@@ -1,0 +1,12 @@
+com/library_cydeo/tests/TestBase.class
+com/library_cydeo/pages/LibrarianUserManagementPage.class
+com/library_cydeo/pages/LibrarianLoginPage.class
+com/library_cydeo/pages/MainPage.class
+com/library_cydeo/tests/US3_NewBookAddingFunctionality.class
+com/library_cydeo/utils/BrowserUtils.class
+com/library_cydeo/tests/US1_LoginFunctionality.class
+com/library_cydeo/tests/US2_NewUserAddingFunctionality.class
+com/library_cydeo/pages/BasePage.class
+com/library_cydeo/pages/StudentLoginPage.class
+com/library_cydeo/utils/ConfigurationReader.class
+com/library_cydeo/utils/Driver.class

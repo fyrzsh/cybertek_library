@@ -1,0 +1,12 @@
+/Users/owner/IdeaProjects/cybertek_library/src/test/java/com/library_cydeo/tests/TestBase.java
+/Users/owner/IdeaProjects/cybertek_library/src/test/java/com/library_cydeo/utils/Driver.java
+/Users/owner/IdeaProjects/cybertek_library/src/test/java/com/library_cydeo/utils/BrowserUtils.java
+/Users/owner/IdeaProjects/cybertek_library/src/test/java/com/library_cydeo/utils/ConfigurationReader.java
+/Users/owner/IdeaProjects/cybertek_library/src/test/java/com/library_cydeo/pages/MainPage.java
+/Users/owner/IdeaProjects/cybertek_library/src/test/java/com/library_cydeo/pages/BasePage.java
+/Users/owner/IdeaProjects/cybertek_library/src/test/java/com/library_cydeo/pages/StudentLoginPage.java
+/Users/owner/IdeaProjects/cybertek_library/src/test/java/com/library_cydeo/tests/US2_NewUserAddingFunctionality.java
+/Users/owner/IdeaProjects/cybertek_library/src/test/java/com/library_cydeo/pages/LibrarianLoginPage.java
+/Users/owner/IdeaProjects/cybertek_library/src/test/java/com/library_cydeo/pages/LibrarianUserManagementPage.java
+/Users/owner/IdeaProjects/cybertek_library/src/test/java/com/library_cydeo/tests/US3_NewBookAddingFunctionality.java
+/Users/owner/IdeaProjects/cybertek_library/src/test/java/com/library_cydeo/tests/US1_LoginFunctionality.java
