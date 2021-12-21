@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class US1_LoginFunctionalityTest extends TestBase {
+public class US1_LoginFunctionality extends TestBase {
 
 
 
@@ -22,21 +22,21 @@ public class US1_LoginFunctionalityTest extends TestBase {
 //        mainPage.verifyTitle();
 //        mainPage.login(ConfigurationReader.getProperty("cydeo.validLibrarianUserName"));
 
-        LibrarianLoginPage librarianLoginPage = new LibrarianLoginPage();
-        librarianLoginPage.verifyTitle();
-        librarianLoginPage.login();
-        librarianLoginPage.verifyModuleAmount();
-        librarianLoginPage.loginValidation();
+        LibrarianLoginPage librarianUser = new LibrarianLoginPage();
+        librarianUser.verifyTitle();
+        librarianUser.login();
+        librarianUser.verifyModuleAmount();
+        librarianUser.loginValidation();
 
     }
 
 
     @Test
     public void studentLoginFunctionalityTest () {
-        StudentLoginPage studentLoginPage = new StudentLoginPage();
-        studentLoginPage.verifyUrl();
-        studentLoginPage.login();
-        studentLoginPage.verifyModuleAmount();
+        StudentLoginPage studentUser = new StudentLoginPage();
+        studentUser.verifyUrl();
+        studentUser.login();
+        studentUser.verifyModuleAmount();
 
     }
 
@@ -46,10 +46,10 @@ public class US1_LoginFunctionalityTest extends TestBase {
 //        MainPage mainPage = new MainPage();
 //        mainPage.verifyTitle();
 //        mainPage.login(ConfigurationReader.getProperty("cydeo.validLibrarianUserName"));
-        LibrarianLoginPage librarianLoginPage = new LibrarianLoginPage();
-        librarianLoginPage.invalidLogin();
-        StudentLoginPage studentLoginPage = new StudentLoginPage();
-        studentLoginPage.invalidLogin();
+        LibrarianLoginPage librarianUser = new LibrarianLoginPage();
+        librarianUser.invalidLogin();
+        StudentLoginPage studentUser = new StudentLoginPage();
+        studentUser.invalidLogin();
 
         /**
          * there is a bug but did not want to deal with that :)
