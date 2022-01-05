@@ -17,10 +17,6 @@ public class US1_LoginFunctionality extends TestBase {
 
     @Test
     public void librarianLoginFunctionalityTest () {
-//        driver.get(ConfigurationReader.getProperty("cydeo.library.url"));
-//        MainPage mainPage = new MainPage();
-//        mainPage.verifyTitle();
-//        mainPage.login(ConfigurationReader.getProperty("cydeo.validLibrarianUserName"));
 
         LibrarianLoginPage librarianUser = new LibrarianLoginPage();
         librarianUser.verifyTitle();
@@ -42,10 +38,7 @@ public class US1_LoginFunctionality extends TestBase {
 
     @Test
     public void librarianInvalidLoginFunctionalityTest () {
-//        driver.get(ConfigurationReader.getProperty("cydeo.library.url"));
-//        MainPage mainPage = new MainPage();
-//        mainPage.verifyTitle();
-//        mainPage.login(ConfigurationReader.getProperty("cydeo.validLibrarianUserName"));
+
         LibrarianLoginPage librarianUser = new LibrarianLoginPage();
         librarianUser.invalidLogin();
         StudentLoginPage studentUser = new StudentLoginPage();

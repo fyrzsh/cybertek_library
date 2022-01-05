@@ -4,6 +4,8 @@ import com.github.javafaker.Faker;
 import com.library_cydeo.utils.ConfigurationReader;
 import com.library_cydeo.utils.Driver;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -18,6 +20,8 @@ public abstract class BasePage {
         driver = Driver.getDriver();
         PageFactory.initElements(driver, this);
     }
+
+
 
     public abstract void login ();
 

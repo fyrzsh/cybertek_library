@@ -23,8 +23,6 @@ public class StudentLoginPage extends MainPage {
     }
 
     public void verifyModuleAmount () {
-//        WebDriverWait wait = new WebDriverWait(driver, 10);
-//        wait.until(ExpectedConditions.visibilityOf(modelList.get(0)));
         BrowserUtils.sleep(2);
         Assert.assertTrue(modelList.size() == 2);
     }
